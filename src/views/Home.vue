@@ -1,45 +1,20 @@
 <script setup>
-import Header from '../components/Header.vue';
-
-
-const posts = [
-  {
-    id: 1,
-    title: 'Post 1',
-    descrription: "This is the first post",
-    date: new Date()
-  },
-  {
-    id: 2,
-    title: 'Post 2 ',
-    descrription: "This is the second post",
-    date: new Date()
-  },
-  {
-    id: 3,
-    title: 'Post 3',
-    descrription: "This is the third post",
-    date: new Date()
-  },
-  {
-    id: 4,
-    title: 'Post 4',
-    descrription: "This is the fourth post",
-    date: new Date()
-  },
-]
+import store from '../store.js';
+const getWordsNumber = (str) => (str.split( ' ').length)
 
 </script>
 
 <template>
 
-    <main class=" container mx-auto">
+    <main class=" w-full grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-4 container mx-auto pt-[170px]">
     
-    <div class="PostItem" v-for="item, itemIndex in posts" :key="itemIndex">
-      <h1 class="text-amber-500 text-5xl font-bold mb-4">
-           {{item.title}}
+    <div class=" PostItem border border-slate-700 mb-4 p-4 rounded-lg  transition-all "  v-for="item, itemIndex in store.posts" :key="itemIndex" @click="$router.push(`/post/${item.id}`)">
+      <h1 class="text-black-500 text-3xl font-bold mb-4">
+           {{item.title}} {{ item.id }}
          </h1>
-         <p class="text-2xl">{{ item.descrription }}</p>
+         <p class="text-1">{{  (item.date) }} </p>
+         <p class="text-1">{{ getWordsNumber (item.descrription) }} words</p>
+         <p class="text-2 text-purple-700 text-end cursor-pointer">read blog</p>
     </div>
     </main>
  

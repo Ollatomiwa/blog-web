@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["/index.html", "./src/*.{vue, js, ts, jsx. tsx}"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

@@ -31,7 +31,7 @@
         </div>
 
         <div class='flex flex-col max-w-[1240px]  m-auto justify-between sm:flex-row text-center text-gray-500 items-center'>
-            <p>2025 E.A. ADESINA & CO. All rights reserved.</p>
+            <p>2025 E.A. ADESINA & COC. All rights reserved.</p>
         </div>
         
 

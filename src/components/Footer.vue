@@ -1,5 +1,5 @@
 <template>
-    <div class='w-full bg-[#02044A] text-gray-300 py-8 px-2 justify-center'>
+    <div class='w-full bg-[#110799] text-gray-300 py-8 px-2 justify-center'>
         <div class='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600'>
             <div>
               <a href="https//:google.com" class="text-center justify-center text-amber-300">HOMEPAGE</a>

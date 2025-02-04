@@ -9,12 +9,12 @@ const post = store.posts.find((x) => x.id === parseInt(route.params.id));
 
 <template>
   <p
-    class="text-start text-xl lg:ml-40 sm:ml-20 md:ml-20 cursor-pointer text-gray-900 hover:text-black w-[100px] pt-[100px] mb-[20px]"
+    class="text-start text-xl lg:ml-40 sm:ml-20 md:ml-20 cursor-pointer text-blue-900 hover:text-black w-[100px] pt-[20px] mb-[20px]"
     @click="$router.push('/')"
   >
     Go Back
   </p>
-  <div class="Post container text-center mx-auto w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2">
+  <div class="Post container text-center mx-auto w-11/12 md:w-3/4 lg:w-2/3 xl:w-[1240px] mb-9">
     <h1 class="text-black-500 text-2xl lg:text-4xl font-bold mb-2">
       {{ post.title }}
     </h1>

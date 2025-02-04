@@ -2,7 +2,7 @@
     <div class='w-full bg-[#110799] text-gray-300 py-8 px-2 justify-center'>
         <div class='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600'>
             <div>
-              <a href="https//:google.com" class="text-center justify-center text-amber-300">HOMEPAGE</a>
+              <a href="https//lawfirm-website-one.vercel.app" class="text-center justify-center text-amber-400">GO TO THE HOMEPAGE</a>
             </div>
             <div>
                 <h6 class='font-bold uppercase py-2'></h6>
@@ -30,8 +30,8 @@
 
         </div>
 
-        <div class='flex flex-col max-w-[1240px]  m-auto justify-between sm:flex-row text-center text-gray-500 items-center'>
-            <p>2025 E.A. ADESINA & COC. All rights reserved.</p>
+        <div class='flex flex-col max-w-[1240px] font-bold  m-auto justify-between sm:flex-row text-center text-white items-center'>
+            <p>2025 E.A. ADESINA & CO. All rights reserved.</p>
         </div>
         
 

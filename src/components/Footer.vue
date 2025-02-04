@@ -1,28 +1,20 @@
 <template>
-    <div class='w-full bg-[#110799] text-gray-300 py-8 px-2 justify-center'>
+    <div class='w-full bg-[#110799] text-gray-300 py-8 px-2 justify-center text-center'>
         <div class='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600'>
             <div>
-              <a href="https://lawfirm-website-one.vercel.app" class="text-center justify-center text-amber-400"> HOMEPAGE</a>
+              <a href="https://lawfirm-website-one.vercel.app" class="ml-[135px] text-center justify-center text-amber-400"> HOMEPAGE</a>
             </div>
-            <div>
-                <h6 class='font-bold uppercase py-2'></h6>
-                <ol>
-                    <li class='py-1'></li>
-                    <li class='py-1'></li>
-                    <li class='py-1'></li>
-                    <li class='py-1'></li>
-                    <li class='py-1'></li>
-                </ol>
-            </div>
+          
 
-            <div class='col-span-2 pt-2 md:pt-2'>
-                <p class='font-bold uppercase'>Subscribe To Our Newsletter</p>
-                <p class='py-4'>The latest news, articles, and resources
-                    sent to your inbox weekly.
+            <div class='col-span-12 pt-2 md:pt-2 justify-center text-center'>
+                <p class='font-bold uppercase '>Contact us</p>
+                <p class='py-2'>179, Igbosere Road, Lagos.
                 </p>
                 <form class='flex flex-col sm:flex-row'>
-                    <input class='w-full p-2 mr-4 rounded-md  mb-2' type="email" placeholder="Enter email" />
-                    <button class='p-2 mb-2 bg-[#00B86E] '>Subscribe</button>
+                    <input class='w-full p-2 mr-4 rounded-md  mb-2' type="name" placeholder="Your Name" />
+                    <input class='w-full p-2 mr-4 rounded-md  mb-2' type="email" placeholder="Your Email" />
+                    <input class='w-full p-2 mr-4 rounded-md  mb-2' type="message" placeholder="Message" />
+                    <button type="submit" class=' text-sm p-2 mb-2 bg-[#00B86E] '>SEND</button>
 
                 </form>
 

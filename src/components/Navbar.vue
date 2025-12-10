@@ -1,6 +1,6 @@
 ;<script setup>
 import { ref } from 'vue';
-import logo from '../assets/img/logo.jpg';
+import logo from '../assets/img/logo.png';
 
 
 const img = ref(logo);

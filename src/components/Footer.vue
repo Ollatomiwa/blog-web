@@ -8,7 +8,7 @@
 
             <div class='col-span-12 pt-2 md:pt-2 justify-center text-center'>
                 <p class='font-bold uppercase '>Contact us</p>
-                <p class='py-2'>179, Igbosere Road, Lagos.
+                <p class='py-2'>179, Lagos Road, Lagos.
                 </p>
                 <form class='flex flex-col sm:flex-row'>
                     <input class='w-full p-2 mr-4 rounded-md  mb-2' type="name" placeholder="Your Name" />
@@ -23,7 +23,7 @@
         </div>
 
         <div class='flex flex-col max-w-[1240px] font-bold  m-auto justify-between sm:flex-row text-center text-white items-center'>
-            <p>2025 E.A. ADESINA & CO. All rights reserved.</p>
+            <p>2025 THE LAW & CO. All rights reserved.</p>
         </div>
         
 

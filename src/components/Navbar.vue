@@ -11,7 +11,7 @@ const img = ref(logo);
         <div class='flex  h-full md:max-w-[1200px] sm:max-w-[500px]  m-auto'>
 
                 <div class=' '>
-                    <img :src="img" alt="E.A. ADESINA & CO" class='sm:ml-10 ss:ml-10 md:ml-3 opacity-[95%]  h-[65px]' />
+                    <img :src="img" alt="THE LAW & CO" class='sm:ml-10 ss:ml-10 md:ml-3 opacity-[95%]  h-[65px]' />
                 </div>
 
         </div>
